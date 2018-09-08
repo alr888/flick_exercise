@@ -1,15 +1,10 @@
 #!/usr/bin/env ruby
-require 'test/unit'
 
 class FlattenArray
   attr_accessor :tempvals
 
-  # Create the object
-  def initialize(tempvals = [[1,2,[3]],4])
+  def flatarray(tempvals)
     @tempvals = tempvals
-  end
-
-  def flatarray 
     puts @tempvals.inspect
 	temp = @tempvals.join(",").split(",").map(&:to_i).inspect
 	puts temp
@@ -20,5 +15,5 @@ end
 
 if __FILE__ == $0
   ca = FlattenArray.new
-  ca.flatarray
+  ca.flatarray(temparray = [[1,2,[3]],4])
 end
