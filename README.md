@@ -1,4 +1,4 @@
-# flick_exercise
+# Flick Exercise
 Flick Electric Exercise
 
 To run the scripts via command line use any of the 23 below:
