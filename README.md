@@ -1,5 +1,4 @@
 # Flick Exercise
-Flick Electric Exercise
 
 From the command line use any of the 3 below:
 
