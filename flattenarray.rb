@@ -5,8 +5,8 @@ class FlattenArray
 
   #Method for flattening a jagged array
   def flatarray(tempvals)
-    @tempvals = tempvals
-    puts @tempvals.inspect
+	@tempvals = tempvals
+	puts @tempvals.inspect
 	temparray = @tempvals.join(",").split(",").map(&:to_i).inspect
 	puts temparray 
 	return temparray 
